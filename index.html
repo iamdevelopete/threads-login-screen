@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Threads Login Screen</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="login">
+        <label for="loginInput">Log in with Instagram</label>
+        <input type="text" id="loginInput" />
+        <img
+          src="verification-badge.png"
+          id="verification"
+          alt="Verification badge icon"
+        />
+        <img
+          src="instagram.svg"
+          id="instagram"
+          alt="Instagram logo"
+          onclick="verify()"
+        />
+        <a href="/">Switch accounts</a>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

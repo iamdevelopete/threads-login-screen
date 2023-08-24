@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* Resetting default CSS */
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f1f1f1;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("bg-image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.container .login {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+.container .login label {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  color: #00000080;
+  font-size: 14px;
+}
+.container .login input {
+  height: 65px;
+  width: 100%;
+  border: 1px solid #0000001d;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-top: 12px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.container .login img#instagram {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: 40px;
+  height: 40px;
+}
+.container .login img#verification {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  width: 42px;
+  padding-top: 12px;
+  display: none;
+}
+.container .login a {
+  position: absolute;
+  bottom: -50px;
+  text-decoration: none;
+  color: #0000006b;
+  font-size: 14px;
+}
